@@ -26,25 +26,27 @@ export const ProductsList = () => {
   }, [fetchProducts, skip]);
 
   return (
-    <DataAsync loading={loading} error={error} data={products}>
-      {(products) => (
-        <>
-          <Filters />
-          <div className={styles.productsList}>
-            {products.map((product) => (
-              <ProductCard key={product.id} {...product} />
-            ))}
-          </div>
-          {totalCount > products.length && (
-            <div className={styles.btnMore}>
-              {loading && <CircularProgress width={24} height={24} />}
-              <span onClick={onSkip} className={loading ? styles.disable : ""}>
-                Показать ещё
-              </span>
+    <>
+      <Filters />
+      <DataAsync loading={loading} error={error} data={products}>
+        {(products) => (
+          <>
+            <div className={styles.productsList}>
+              {products.map((product) => (
+                <ProductCard key={product.id} {...product} />
+              ))}
             </div>
-          )}
-        </>
+          </>
+        )}
+      </DataAsync>
+      {totalCount > products.length && (
+        <div className={styles.btnMore}>
+          {loading && <CircularProgress width={24} height={24} />}
+          <span onClick={onSkip} className={loading ? styles.disable : ""}>
+            Показать ещё
+          </span>
+        </div>
       )}
-    </DataAsync>
+    </>
   );
 };

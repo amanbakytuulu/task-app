@@ -27,7 +27,7 @@ export const DataAsync = <TData extends object>(
     );
   }
 
-  if (props.loading && !props.data) {
+  if (props.loading || !props.data) {
     return (
       <div className={styles.stateBlock}>
         <div className={styles.stateBlock__loader}>
@@ -37,7 +37,7 @@ export const DataAsync = <TData extends object>(
     );
   }
 
-  if (!props.data || (Array.isArray(props.data) && !props.data?.length)) {
+  if (Array.isArray(props.data) && !props.data?.length) {
     return (
       <div className={styles.stateBlock}>
         <div className={styles.stateBlock__error_message}>Нет данных</div>

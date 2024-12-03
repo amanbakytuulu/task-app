@@ -14,7 +14,7 @@
       "photo": "https://static.insales-cdn.com/r/B8Db6KEIifU/rs:fit:440:0:1/q:100/plain/images/products/1/2439/423414151/large_Rectangle-3.jpg@webp",
       "category": "jacket",
       "price": 5690,
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "3",
@@ -30,7 +30,7 @@
       "photo": "https://static.insales-cdn.com/r/XW8IaukBVuI/rs:fit:440:0:1/q:100/plain/images/products/1/2830/423414542/large_Rectangle-1.jpg@webp",
       "category": "jeans",
       "price": 2411,
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "5",
