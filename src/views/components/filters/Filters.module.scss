@@ -1,0 +1,18 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+
+  & > .favoriteBox {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+
+    & > input[type="checkbox"] {
+      margin-top: 0.3rem;
+    }
+  }
+
+  & * {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Джинсовая куртка синяя",
+      "photo": "https://static.insales-cdn.com/r/fIayOmlvz5M/rs:fit:1000:0:1/q:100/plain/images/products/1/3185/423414897/Rectangle-2.jpg@webp",
+      "category": "jacket",
+      "price": 2500,
+      "favorite": true
+    },
+    {
+      "id": "2",
+      "title": "Куртка с карманами",
+      "photo": "https://static.insales-cdn.com/r/B8Db6KEIifU/rs:fit:440:0:1/q:100/plain/images/products/1/2439/423414151/large_Rectangle-3.jpg@webp",
+      "category": "jacket",
+      "price": 5690,
+      "favorite": false
+    },
+    {
+      "id": "3",
+      "title": "Джинсовая куртка с принтами",
+      "photo": "https://static.insales-cdn.com/r/fIayOmlvz5M/rs:fit:1000:0:1/q:100/plain/images/products/1/3185/423414897/Rectangle-2.jpg@webp",
+      "category": "jacket",
+      "price": 1111,
+      "favorite": false
+    },
+    {
+      "id": "4",
+      "title": "Джинсы с принтом",
+      "photo": "https://static.insales-cdn.com/r/XW8IaukBVuI/rs:fit:440:0:1/q:100/plain/images/products/1/2830/423414542/large_Rectangle-1.jpg@webp",
+      "category": "jeans",
+      "price": 2411,
+      "favorite": false
+    },
+    {
+      "id": "5",
+      "title": "Джинсовая куртка голубая",
+      "photo": "https://static.insales-cdn.com/r/Ej9gDKoG8BI/rs:fit:440:0:1/q:100/plain/images/products/1/3648/423415360/large_Rectangle-5.jpg@webp",
+      "category": "jacket",
+      "price": 5422,
+      "favorite": true
+    },
+    {
+      "id": "6",
+      "title": "Футболка белая",
+      "photo": "https://static.insales-cdn.com/r/8I2wPvKmyic/rs:fit:440:0:1/q:100/plain/images/products/1/2216/423413928/large_Rectangle-7.jpg@webp",
+      "category": "t-short",
+      "price": 1255,
+      "favorite": false
+    },
+    {
+      "id": "7",
+      "title": "Футболка серая",
+      "photo": "https://static.insales-cdn.com/r/IJE5naUBItY/rs:fit:440:0:1/q:100/plain/images/products/1/2350/423414062/large_Rectangle-13.jpg@webp",
+      "category": "t-short",
+      "price": 1255,
+      "favorite": false
+    },
+    {
+      "id": "8",
+      "title": "Джинсы синие",
+      "photo": "https://branded.com.ua/wp-content/uploads/2021/12/248b10d54bc3c6eb9bde.jpg",
+      "category": "jeans",
+      "price": 2500,
+      "favorite": false
+    },
+    {
+      "id": "9",
+      "title": "Футболка черная",
+      "photo": "https://ae01.alicdn.com/kf/H988c3ffd4a1449a2b46c5a3c3c24fc2ft.jpg?width=800&height=1200&hash=2000",
+      "category": "t-short",
+      "price": 1500,
+      "favorite": true
+    },
+    {
+      "id": "10",
+      "title": "Джинсы голубые",
+      "photo": "https://images.shafastatic.net/601652565",
+      "category": "jeans",
+      "price": 2500,
+      "favorite": false
+    },
+    {
+      "id": "11",
+      "title": "Джинсы голубые",
+      "photo": "https://static.insales-cdn.com/r/XW8IaukBVuI/rs:fit:440:0:1/q:100/plain/images/products/1/2830/423414542/large_Rectangle-1.jpg@webp",
+      "category": "jeans",
+      "price": 2500,
+      "favorite": false
+    },
+    {
+      "id": "12",
+      "title": "Футболка темная",
+      "photo": "https://static.insales-cdn.com/r/Ej9gDKoG8BI/rs:fit:440:0:1/q:100/plain/images/products/1/3648/423415360/large_Rectangle-5.jpg@webp",
+      "category": "t-short",
+      "price": 1240,
+      "favorite": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "jacket",
+      "title": "Куртка"
+    },
+    {
+      "id": 2,
+      "name": "jeans",
+      "title": "Джинсы"
+    },
+    {
+      "id": 3,
+      "name": "t-short",
+      "title": "Футболка"
+    }
+  ]
+}

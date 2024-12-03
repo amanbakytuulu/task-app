@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #333333;
+  --secondary: #ff6163;
+  --gray: #97979782;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: var(--primary);
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1408px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+
+input {
+  outline: none;
+}
