@@ -38,7 +38,6 @@ export const Header = () => {
           value={title}
           onChange={onChangeTitle}
         />
-        <button type="button">Поиск</button>
       </div>
       <div className={styles.controls}>
         <img src="icons/favorite.svg" alt="fav" width={24} />

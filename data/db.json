@@ -6,7 +6,7 @@
       "photo": "https://static.insales-cdn.com/r/fIayOmlvz5M/rs:fit:1000:0:1/q:100/plain/images/products/1/3185/423414897/Rectangle-2.jpg@webp",
       "category": "jacket",
       "price": 2500,
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "2",

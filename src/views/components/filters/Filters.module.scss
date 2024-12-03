@@ -15,4 +15,9 @@
   & * {
     font-size: 1.6rem;
   }
+
+  @media screen and (max-width: 540px) {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
 }
